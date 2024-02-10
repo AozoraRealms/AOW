@@ -1,243 +1,409 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-    <title>青空物语 Aozora Realms</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.loli.net/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="images/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="images/animate.css">
-    <link rel="stylesheet" href="images/owl.carousel.min.css">
-    <link rel="stylesheet" href="images/owl.theme.default.min.css">
-    <link rel="stylesheet" href="images/magnific-popup.css">
-    <link rel="stylesheet" href="images/ionicons.min.css">
-    <link rel="stylesheet" href="images/jquery.timepicker.css">
-    <link rel="stylesheet" href="images/flaticon.css">
-    <link rel="stylesheet" href="images/icomoon.css">
-    <link rel="stylesheet" href="images/style.css">
-    <link rel="stylesheet" href="images/custom.css">
-</head>
+    <meta name="referrer" content="no-referrer">
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-        <a class="navbar-brand" href="index-2.html"><img src="images/blue_white.png" width="140"
-                height="66.612" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
+    <!-- Website Title -->
+    <title>青空物语 官网 - Aozora Realms</title>
+    
+    <!-- Styles -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/magnific-popup.css" rel="stylesheet">
+	<link href="static/css/styles.css" rel="stylesheet">
+
+<script async="" src='static/js/invisible.js'></script></head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Qingkongwuyv de shabi Logo -->
+        <a class="navbar-brand logo-image" href=""><img src="static/picture/sUds6x.png" alt="alternative"></a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-awesome fas fa-bars"></span>
+        <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
+        <!-- end of mobile menu toggle button -->
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index-2.html" class="nav-link">主页</a></li>
-                <li class="nav-item"><a href="http://skin.aozora.fun/" class="nav-link">旅者驿站</a></li>
-                <li class="nav-item"><a href="https://klpbbs.com/thread-126417-1-2.html" class="nav-link">加入我们</a></li>
-                <li class="nav-item"><a href="http://skin.aozora.fun/" class="nav-link">皮肤站</a></li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#info">服务器介绍</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#list" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">服务器列表</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#list"><span class="item-text">青空物语生存服</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item"><span class="item-text">尚未开放...</span></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#picture">风景欣赏</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" onclick="window.open('http://skin.aozora.fun/')">旅者驿站</a>
+               </li>
             </ul>
         </div>
-    </div>
-</nav>
-    <section class="hero-wrap d-flex">
-    <div class="forth d-flex">
-        <div class="bg-after d-flex align-self-stretch"></div>
-        <div class="text">
-            <div class="desc pt-5">
-                <span class="subheading">游戏进行中~<br>大版本-1.20</span>
-                <h1 class="mb-3">青空物语<br>AozoraRealms</h2>
-                <h2 class="mb-4">一个和谐萌系的服务器</h3>
-                <a href="https://klpbbs.com/thread-126417-1-2.html" class="go-btn">现已开放 &rarr;</a>
-            </div>
-        </div>
-    </div>
-    <div class="third about-img">
-        <div id="home" class="video-hero"
-            style="height: 750px; background-image: url(images/header-background.png); background-size:cover; background-position: center center;">
-        </div>
-    </div>
-</section>
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center order-md-last"
-                    style="background-image: url(images/sunrise1.png);">
-                </div>
-                <div class="col-md-7 wrap-about pt-md-5 ftco-animate">
-                    <div class="heading-section mb-5 pt-5 pl-md-5">
-                        <div class="pr-md-5 mr-md-5 text-md-right">
-                            <span class="subheading">Providing</span>
-                            <h2 class="mb-4">在这里你能体验到...</h2>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>蔚蓝青空 <span id="js-rotating"> 深蓝海洋, 浅粉桃花, 炙红晚霞, 碧绿翠林</span></h1>
+                            <p style="color:white;margin-top:4rem">我的世界青空物语服务器</p>
+                            <p style="color:white;margin-bottom:3rem">服务器正常运行中！欢迎加入我们！</p>
+                            <a class="btn-solid-lg page-scroll" href="#list" target="_blank">服务器列表</a>
                         </div>
-                    </div>
-                    <div class="pr-md-3 pr-lg-5 pl-md-5 mr-md-5 mb-5">
-                        <div class="services-wrap d-flex">
-                            <div class="icon d-flex justify-content-center align-items-center">
-                                <span class="flaticon-innovation"></span>
-                            </div>
-                            <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
-                                <h3 class="heading">化繁为简</h3>
-                                <p>没有繁琐的加入机制，你只需要加入官方群聊，再阅读简单的社区规则和常见问题即可开始你的多人联机生存之旅！没有加入太多繁杂而无趣的插件，在保证游戏玩法有特色的同时让其浅显易懂。在这里，一切都尽可能向简单靠拢。
-                                </p>
-                            </div>
-                        </div>
-                        <div class="services-wrap d-flex">
-                            <div class="icon d-flex justify-content-center align-items-center">
-                                <span class="flaticon-innovation"></span>
-                            </div>
-                            <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
-                                <h3 class="heading">稳定可靠</h3>
-                                <p>服务器选用国内稳定服务器，加入了领地保护与信息查询插件，保护您的劳动成果。
-                                </p>
-                            </div>
-                        </div>
-                        <div class="services-wrap d-flex">
-                            <div class="icon d-flex justify-content-center align-items-center">
-                                <span class="flaticon-innovation"></span>
-                            </div>
-                            <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
-                                <h3 class="heading">最小限制*</h3>
-                                <p>我们一直紧跟最新稳定版本，抛开恼人的条条框框，没有规划限制、没有建筑外观限制、没有流水/岩浆/怪物数量限制。无论是选择当名探险家还是打算找一片“世外桃源”来安心养老抑或是建筑爱好者都可以在这里尽情发挥你的才能。
-                                </p>
-                            </div>
-                        </div>
-                        <div class="services-wrap d-flex">
-                            <div class="icon d-flex justify-content-center align-items-center">
-                                <span class="flaticon-innovation"></span>
-                            </div>
-                            <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
-                                <h3 class="heading">24/7 Support</h3>
-				<p>服务器管理运营成员轮换值班制度，使玩家的用户支持得到最大的保障。每天都有管理在线，让你的问题第一时间获得解决。</p>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm ftco-animate">
-                                    <img src="images/server.png" class="img-fluid" alt="server">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
-    <section class="ftco-section ftco-services">
+
+    <!-- Intro -->
+    <div id="info" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services text-center">
-                        <div class="icon d-flex justify-content-center align-items-center mb-4">
-                            <span class="flaticon-ideas"></span>
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <h2>青空物语欢迎您</h2>
+                        <p>&nbsp;&nbsp;这是一个温馨和谐的服务器，提供了稳定流畅的体验，自从2022年10月8日开服以来我们努力创建一个环境良好更公平公正的游戏氛围，和玩家们一起度过了很多愉快的时光,在这里的日子将会是你值得回忆的美好。<br>我们保证不做影响平衡、破坏公平的行为。服务器暂时不开放白名单，欢迎玩家提出意见或者举报违规行为，请大家自觉遵守游戏规则。</p>
+                        <p class="testimonial-text" id="poem-text"></p>
+                        <font color="#484a46"><p id="poem-author" style="font-weight: bold"></p></font>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="static/picture/a4Vyng.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+    
+    <!-- Services -->
+    <div id="list" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>服务器列表<br> 一个服也要列！</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="static/picture/a4Vj9x.jpg" alt="alternative">
                         </div>
-                        <div class="media-body">
-                            <h3 class="heading">公益服务器</h3>
-                            <p>我们遵循 Mojang EULA
-                                协议，始终遵循无强制、无限制、无暗费的三大基本准则；不设定任何土旧的「神装|神器|坐骑」等破坏平衡的增值服务。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services text-center">
-                        <div class="icon d-flex justify-content-center align-items-center mb-4">
-                            <span class="flaticon-analysis"></span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="heading">隐私不留痕</h3>
-                            <p>社区管辖的所有服务器均遵循欧盟 GDPR 规定，不在任何情况下收集保存玩家 IP
-                                地址、聊天记录、互动记录等敏感数据；在任何时候都不会将玩家数据分享给第三方；同时玩家有权利要求将自己的数据从服务器上永久删除和要求服务器提供自己的个人数据下载。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services text-center">
-                        <div class="icon d-flex justify-content-center align-items-center mb-4">
-                            <span class="flaticon-web-design"></span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="heading">用心制作</h3>
-                            <p>我们重新设计了社区官网的界面，让其保持轻盈而加载快速的同时又不失其美观性。为了确保游戏服务器和社区相关服务器的平稳运行，我们花费了许多的时间来校调、修改和完善。精心设计的游戏设定到活跃的活动策划团队，这一切都是为了给玩家最好体验。
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services text-center">
-                        <div class="icon d-flex justify-content-center align-items-center mb-4">
-                            <span class="flaticon-idea"></span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="heading">创造力社区</h3>
-                            <p>在这片地大物博的世界里，创造是铸造伟大的阶梯。玩家们创建了城镇与市场，谱写了温馨与美好，亦在互助中孕育友情。时间流淌在高楼大厦之间，亦流动在红石的光辉中。从宏伟的世界建筑到喜闻乐见的玩家雕塑，社区驱使着创造力，丰富着世界的多彩。
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <div class="card-body">
+                            <h3 class="card-title">青空物语 生存服</h3>
+                            <p>纯净生存服务器,拥有更简约的样子，死亡不掉落，领地防熊。</p>
+                            <p>打造更轻松，更舒适，更友好的游玩环境。</p>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-        <div class="row mb-5 d-flex">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <div class="footer-logo">
-                        <img src="images/blue_white.png" width="140"
-                            height="66.612" alt="logo">
+                        </div>
+                        <div class="button-container">
+                            <a class="btn-solid-reg page-scroll" href="https://qm.qq.com/cgi-bin/qm/qr?k=PJnWYix5gzRBhSnrqHsur0sjd33qz8GW&jump_from=webapi&authKey=nfb5/Z56IIuKhA/3NQ3cb7GUHl2S4NJ/iXIdNuT3dw4+UMSDnTC6p6bSQi0cwoVx">加入Q群</a>
+                        </div> <!-- end of button-container -->
                     </div>
-                    <p>在青空物语，<br/>每一处景色都透露着神奇与瑰丽。从天堂到地狱，每一次冒险都带着好奇与发现。<br/>这一切貌似置身事外，又似乎沉浸其中。遥望远方漫漫，却又已开始偷偷行进。</p>
-                    <small>* 为了维持服务器的稳定运行，本服会更换周目。</small>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">联系我们</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="https://klpbbs.com/thread-126417-1-2.html">MCBBS</a></li>
-                        <li><a href="https://github.com/orgs/NekoDreamMCBE">GitHub</a></li>
-                        <li><a href="https://klpbbs.com/thread-126417-1-2.html">KLPBBS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2">青空物语 友情链接</h2>
-                <div class="block-23 mb-3">
-                    <a> 没有友服🤡 </a>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of services -->
+    
+        <!-- Projects -->
+	<div id="picture" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>风景欣赏</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Filter -->
+                    <div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>显示全部</span></a>
+                        <a class="button" data-filter=".design"><span>主城风景</span></a>
+                        <a class="button" data-filter=".development"><span>宣传海报</span></a>
+                        <a class="button" data-filter=".marketing"><span>玩家合照</span></a>
+                        <a class="button" data-filter=".seo"><span>玩家建筑</span></a>
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>主城风景1</span></div><img src="static/picture/a4V43V.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>主城风景2</span></div><img src="static/picture/a4VWhq.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>宣传海报</span></div><img src="static/picture/WcR2x1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item marketing">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>节日合照</span></div><img src="static/picture/do0xc8.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item marketing">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>玩家合照1</span></div><img src="static/picture/a4V7B4.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item marketing">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>玩家合照2</span></div><img src="static/picture/a4VTuF.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item seo">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>玩家建筑</span></div><img src="static/picture/do0j9P.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item seo">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>社区小镇</span></div><img src="static/picture/a4VHHJ.jpg" alt="alternative"></a>
+                        </div>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+		</div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
+
+
+    <!-- Project Lightboxes -->
+    <!-- Lightbox -->
+    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p>Copyright &copy; 2024 青空物语 ，保留一切权力</p> <a href="https://icp.gov.moe/?keyword=20240985" target="_blank">萌ICP备20240985号</a>
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/a4V43V.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>主城风景1</h3>
+                <hr class="line-heading">
+                <h6>图片介绍</h6>
+                <p>主城一处美好风光。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/a4VWhq.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>主城风景2</h3>
+                <hr class="line-heading">
+                <h6>图片介绍</h6>
+                <p>主城一处美好风光。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/WcR2x1.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>宣传海报</h3>
+                <hr class="line-heading">
+                <h6>图片介绍</h6>
+                <p>服务器宣传海报</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/do0xc8.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>七夕活动合照</h3>
+                <hr class="line-heading">
+                <h6>图片介绍</h6>
+                <p>节日快乐，青空物语与你同乐。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/a4V7B4.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>玩家合照1</h3>
+                <hr class="line-heading">
+                <p>和谐融洽的游戏体验。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/do0j9P.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>玩家建筑</h3>
+                <hr class="line-heading">
+                <p>了不起的生存建筑。<br>By Happyzhou</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/a4VTuF.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>玩家合照2</h3>
+                <hr class="line-heading">
+                <p>和谐融洽的游戏体验。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+                </div>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+     <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="static/picture/a4VHHJ.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>社区小镇</h3>
+                <hr class="line-heading">
+                <p>一个有爱的社区小镇。</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">返回</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    <!-- end of project lightboxes -->
+    
+    <!-- Details 1 -->
+	<div class="accordion">
+		<div class="area-1">
+		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
+            <!-- Accordion -->
+            <div class="accordion-container" id="accordionOne">
+                <h2>主城风景欣赏</h2>
+                <p>科幻的建筑风格，美在神秘，美在科技，目的为了给玩家更好的游戏体验，让人心旷神怡，感受身临其境。<p>
+            </p></div> <!-- end of accordion-container -->
+            <!-- end of accordion -->
+
+		</div> <!-- end of area-2 -->
+    </div> <!-- end of accordion -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+	<div class="tabs">
+        <div class="area-1">
+            <div class="tabs-container" style="margin-right: 100px">
+                <!-- Accordion -->
+                <h2>服务器后台</h2>
+                <br>
+                <p>我们采用了专业的服务器，拥有中高配服务器，不再担心服务器卡顿或过载，本服务器没有地图限制，不限制玩家跑图，只为给玩家更好的游戏体验。<p>
+            </p></div> <!-- end of tabs-container -->
+        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+    </div> <!-- end of tabs -->
+    <!-- end of details 2 -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>关于更多</h4>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">网站By <a target="_blank" href="javascript:;">DianFenMian</a></p>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">管理By <a href="javascript:;">MF.</a></p>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">建筑By <a href="javascript:;">happyzhou</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</footer>
 
-<div id="ftco-loader" class="show fullscreen">
-    <svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-            stroke="#F96D00" />
-    </svg>
-</div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="color:#dfe5ec;margin-bottom:0rem"> 友情外链:&nbsp;&nbsp;<a target="_blank" href="javascript:;">Optifine</a>&nbsp;&nbsp;<a target="_blank" href="javascript:;">Minecraft</a>&nbsp;&nbsp;</p>
+                    <p class="p-small">Copyright &copy; 2024 <a target="_blank" href="">青空物语</a>丨版权所有</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
 
-<script src="images/jquery.min.js"></script>
-<script src="images/jquery-migrate-3.0.1.min.js"></script>
-<script src="images/popper.min.js"></script>
-<script src="images/bootstrap.min.js"></script>
-<script src="images/jquery.easing.1.3.js"></script>
-<script src="images/jquery.waypoints.min.js"></script>
-<script src="images/jquery.stellar.min.js"></script>
-<script src="images/owl.carousel.min.js"></script>
-<script src="images/jquery.magnific-popup.min.js"></script>
-<script src="images/aos.js"></script>
-<script src="images/jquery.animatenumber.min.js"></script>
-<script src="images/jquery.mb.ytplayer.min.js"></script>
-<script src="images/scrollax.min.js"></script>
-<script src="images/google-map.js"></script>
-<script src="images/main.js"></script>
+    <!-- Scripts -->
+    <script src="static/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="static/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="static/js/jquery.magnific-popup.min.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="static/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="static/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="static/js/scripts.js"></script> <!-- Custom scripts -->
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'722dfdb199d47d71',m:'19Y5sUEmkuesvcwoflTEC65MkJwy7cLavQzBGYiBtvY-1656498670-0-Afp5VNNCoDo3sfkf6E1uIsj13HZi53Dkbzs5nA8TDfEi39X58MCXMr7A2elapHM4zr03UptDpXY001A14xQqgVfkH+I2+sLs6GU95UZmp9jP7BGtqI0mVqu30IPHrg9zvA==',s:[0xbc1e923766,0x07525182e2],u:'/cdn-cgi/challenge-platform/h/b'}})();</script><script defer="" src="static/js/v652eace1692a40cfa3763df669d7439c1639079717194.js" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"722dfdb199d47d71","version":"2022.6.0","r":1,"token":"776870bd5e914f9693a2a32d28cef7a8","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
+
